@@ -1,0 +1,58 @@
+
+.leaderboard-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .leaderboard-item .place {
+    flex-basis: 5%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .leaderboard-item .logo {
+    max-height: 40px;
+  }
+  
+  .leaderboard-item .teamId-button {
+    flex-basis: 20%;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #222222;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .leaderboard-item .score {
+    flex-basis: 10%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .leaderboard-item .won {
+    flex-basis: 10%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .leaderboard-item .lost {
+    flex-basis: 10%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .leaderboard-item .division {
+    flex-basis: 15%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
